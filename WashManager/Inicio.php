@@ -51,7 +51,7 @@ $services = [
     [
         "id" => "basico",
         "title" => "Lavado Básico",
-        "price" => "$299",
+        "price" => "$199",
         "popular" => false,
         "features" => ["Lavado exterior", "Limpieza de llantas", "Secado profesional", "Aspirado básico"],
         "button_class" => "border border-gray-300 text-gray-700 hover:bg-gray-50" // Replicando variant="outline"
@@ -59,7 +59,7 @@ $services = [
     [
         "id" => "Premium",
         "title" => "Lavado Premium",
-        "price" => "$499",
+        "price" => "$299",
         "popular" => true,
         "features" => ["Todo lo del Básico", "Encerado profesional", "Limpieza interior completa", "Pulido de tablero", "Aromatizante premium"],
         "button_class" => "bg-white text-blue-600 hover:bg-gray-100" // Replicando variant="secondary"
@@ -67,7 +67,7 @@ $services = [
     [
         "id" => "Completo",
         "title" => "Lavado Completo",
-        "price" => "$799",
+        "price" => "$399",
         "popular" => false,
         "features" => ["Todo lo del Premium", "Detallado motor", "Pulido de faros", "Limpieza profunda de tapicería", "Protección UV"],
         "button_class" => "border border-gray-300 text-gray-700 hover:bg-gray-50" // Replicando variant="outline"
